@@ -30,7 +30,7 @@ author: mei
 description: 
 subtitle: ""
 
-banner: "images/hutao.jpg"
+banner: #images/banner.webp
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -45,7 +45,7 @@ banner_srcset:
     - src: "images/banner.webp"
       media: "(min-width: 800px)"
 
-avatar: "avatar.webp"
+avatar: hutao.webp
 
 # Open Graph
 open_graph:
@@ -118,7 +118,7 @@ recent_posts_limits: 5
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
     default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     pointer: ../images/cursor/reimu-cursor-pointer.png
@@ -300,7 +300,7 @@ algolia_search:
 
 preloader:
   enable: true
-  text: 少女祈祷中...
+  text: loading...
   icon: # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
 
 # see https://github.com/D-Sketon/aos.js
@@ -351,7 +351,7 @@ firework:
         number: 1
         duration: [1200, 1800]
         shapeOptions:
-          radius: 20
+          radius: 10
           alpha: [0.2, 0.5]
           lineWidth: 6
 
