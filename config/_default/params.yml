@@ -22,9 +22,9 @@ mainSections: ["post"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
-monthFormat: "01-2006"
-dateFormat: "02-01-2006"
-timeFormat: "02-01-2006 15:04:05"
+monthFormat: "Jan 2006"
+dateFormat: "02 Jan 2006"
+timeFormat: "02 Jan 2006 15:04:05"
 
 author: mei
 description: 
