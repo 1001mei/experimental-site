@@ -4,7 +4,7 @@ date: 2025-01-10T08:00:00+08:00
 summary: "Some hello world programs for the languages that I have learnt"
 ---
 
-# Some hello world programs for the languages that I have learnt
+# Hello world programs for languages that I have learnt
 
 ```c
 #include<stdio.h>

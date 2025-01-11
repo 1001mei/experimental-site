@@ -133,9 +133,10 @@ font:
     - Mulish
     - Noto Serif SC
   code:
-    # - Ubuntu Mono
-    # - Source Code Pro
-    # - JetBrains Mono
+    #- Ubuntu Mono
+    #- Source Code Pro
+    #- JetBrains Mono
+    - Fira Code
 
 # Local FallBack Font
 local_font:
