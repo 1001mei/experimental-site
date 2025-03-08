@@ -85,6 +85,7 @@ social:
   # linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
+  youtube: https://www.youtube.com/watch?v=fmDHfS0fXm4
   # vimeo: https://vimeo.com/yourname
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
@@ -124,7 +125,7 @@ reimu_cursor:
     pointer: ../images/cursor/reimu-cursor-pointer.png
     text: ../images/cursor/reimu-cursor-text.png
 
-icon_font: 4552607_bq08450reo
+icon_font: false #4552607_bq08450reo
 
 # https://fonts.google.com/
 # Google Fonts, higher priority than local_font
@@ -373,8 +374,8 @@ article_copyright:
 
 # Clipboard configuration
 clipboard:
-  success: 复制成功(*^▽^*)
-  fail: 复制失败 (ﾟ⊿ﾟ)ﾂ
+  success: copied (*^▽^*)
+  fail: copy failed (ﾟ⊿ﾟ)ﾂ
   copyright:
     enable: false
     count: 50 # The number of characters when the copyright is displayed
